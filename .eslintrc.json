@@ -1,0 +1,29 @@
+{
+	"extends": ["airbnb", "airbnb-typescript", "plugin:@next/next/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"overrides": [
+		{
+			"files": ["*.ts", "*.tsx"],
+			"parserOptions": {
+				"project": "./tsconfig.json"
+			}
+		}
+	],
+	"rules": {
+		"@typescript-eslint/semi": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-indent": ["warn", 2, "tab"],
+		"@typescript-eslint/indent": ["warn", 2, "tab"],
+		"jsx-quotes": ["warn", "prefer-single"],
+		"semi": "off",
+		"arrow-parens": "off",
+		"comma-dangle": "off",
+		"no-console": 0,
+		"require-jsdoc": "off",
+		"no-tabs": 0,
+		"no-trailing-spaces": "off",
+		"indent": "off",
+		"no-debugger": "off",
+		"padded-blocks": "off"
+	}
+}
