@@ -14,10 +14,9 @@
 		"isolatedModules": true,
 		"jsx": "preserve",
 		"incremental": true,
-		"baseUrl": "./app/",
+		"baseUrl": "./src/",
 		"paths": {
 			"@/layout/*": ["components/layout/*"],
-			"@/ui/*": ["components/ui/*"],
 			"@/screens/*": ["components/screens/*"],
 			"@/*": ["./*"]
 		}

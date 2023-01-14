@@ -1,17 +1,7 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 
-const Home: NextPage = () => {
-  return (
-    <div className="">
-      <Head>
-        <title>Coinmarketcap Clone</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+import Home from '@/screens/home/Home'
 
-      Coinmarketcap Clone
-    </div>
-  )
-}
+const HomePage: NextPage = () => <Home />
 
-export default Home
+export default HomePage
