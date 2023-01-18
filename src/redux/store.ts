@@ -3,9 +3,9 @@ import { configureStore } from '@reduxjs/toolkit'
 import mainSlice from '@/redux/slices/mainSlice'
 
 const store = configureStore({
-	reducer: {
-		mainSlice
-	}
+  reducer: {
+    mainSlice,
+  },
 })
 
 export type RootState = ReturnType<typeof store.getState>

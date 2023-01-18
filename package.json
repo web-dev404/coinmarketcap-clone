@@ -10,6 +10,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
+		"lint": "next lint",
 		"prettier": "prettier --write .",
 		"postinstall": "husky install"
 	},
@@ -30,6 +31,7 @@
 		"swiper": "^8.4.5"
 	},
 	"devDependencies": {
+		"@next/eslint-plugin-next": "^13.1.2",
 		"@trivago/prettier-plugin-sort-imports": "^4.0.0",
 		"@types/node": "18.11.3",
 		"@types/react": "18.0.21",
