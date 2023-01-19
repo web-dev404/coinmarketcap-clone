@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 
-import Layout from '@/layout/Layout';
+import Layout from '@/layout/wrapper/Wrapper';
 
 import { RootState } from '@/redux/store';
 
