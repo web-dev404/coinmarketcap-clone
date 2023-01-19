@@ -1,16 +1,16 @@
-import { useSelector } from 'react-redux'
+import { useSelector } from 'react-redux';
 
-import Layout from '@/layout/Layout'
+import Layout from '@/layout/Layout';
 
-import { RootState } from '@/redux/store'
+import { RootState } from '@/redux/store';
 
 const Home = function () {
-  const mainSlice = useSelector((state: RootState) => state.mainSlice)
+  const mainSlice = useSelector((state: RootState) => state.mainSlice);
 
   return (
     <Layout title='Home' description='Coinmarketcap Clone'>
       {mainSlice.id}
     </Layout>
-  )
-}
-export default Home
+  );
+};
+export default Home;

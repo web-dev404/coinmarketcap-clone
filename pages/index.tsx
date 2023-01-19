@@ -1,7 +1,7 @@
-import type { NextPage } from 'next'
+import type { NextPage } from 'next';
 
-import Home from '@/screens/home/Home'
+import Home from '@/screens/home/Home';
 
-const HomePage: NextPage = () => <Home />
+const HomePage: NextPage = () => <Home />;
 
-export default HomePage
+export default HomePage;

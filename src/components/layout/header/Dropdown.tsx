@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import { FC } from 'react'
+import Link from 'next/link';
+import { FC } from 'react';
 
 const Dropdown: FC<{ isDropdownOpened: boolean }> = function ({
   isDropdownOpened,
@@ -22,6 +22,6 @@ const Dropdown: FC<{ isDropdownOpened: boolean }> = function ({
         Log out
       </button>
     </div>
-  )
-}
-export default Dropdown
+  );
+};
+export default Dropdown;
