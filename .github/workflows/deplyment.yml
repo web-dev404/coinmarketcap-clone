@@ -4,9 +4,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Get repository code
+      - name: get repository code
         uses: actions/checkout@v3
-      - name: Check node and npm
-        run: |
-          node -v
-          npm -v
+      - name: install yarn
+        run: npm install --global yarn
+      - name: install dependencies
+        run: yarn install --frozen-lockfile
