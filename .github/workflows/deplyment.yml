@@ -22,8 +22,3 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
       - name: Building next application
-  deploying:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Log deploying
-        uses: echo ...deploying
