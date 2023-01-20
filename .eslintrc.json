@@ -18,15 +18,13 @@
 		"no-debugger": "off",
 		"padded-blocks": "off",
 		// airbnb
-		// "import/extensions": "off",
-		// "react/function-component-definition": "off",
-		// "react/jsx-props-no-spreading": "off",
-		// "func-names": "off",
-		// "no-param-reassign": "off",
-		// "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-		// 	Under review
-		"import/prefer-default-export": "off"
-		//  "react/button-has-type": "off" // я не против этого правила
+		 "import/extensions": "off",
+		 "react/function-component-definition": "off",
+		 "react/jsx-props-no-spreading": "off",
+		 "func-names": "off",
+		 "no-param-reassign": "off",
+		 "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+		 "import/prefer-default-export": "off"
 	},
 	"overrides": [
 		{
