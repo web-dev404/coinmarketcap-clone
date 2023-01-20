@@ -4,9 +4,5 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Print to console
-        run: echo Hello GH Actions!
-      - name: Print a few lines
-        run: |
-          echo First line
-          echo Second Line
+      - name: Get repository code
+        uses: actions/checkout@v3
