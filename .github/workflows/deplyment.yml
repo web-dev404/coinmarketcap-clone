@@ -5,10 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get repository code
-        uses: actions/checkout@v3
-      - name: Install yarn
-        uses: npm install --global yarn
-      - name: Install Dependencies
-        run: yarn install --frozen-lockfile
-      - name: Linting application
-        run: yarn lint
+        uses: echo Start GH workflow
