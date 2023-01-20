@@ -68,7 +68,7 @@ body {
 	}
 }
 
-[class*="__container"] {
+.container {
 	max-width: rem($maxWidthContainer);
 	box-sizing: content-box;
 	margin: 0 auto;

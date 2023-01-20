@@ -1,0 +1,25 @@
+name: Deploy Coin-market
+on: push
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get repository code
+        uses: actions/checkout@v3
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Linting application
+        run: yarn lint
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get repository code
+        uses: actions/checkout@v3
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Building next application
+  deploying:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log deploying
+        uses: echo ...Deploying

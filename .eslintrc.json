@@ -3,14 +3,14 @@
 	"parser": "@typescript-eslint/parser",
 	"rules": {
 		"@typescript-eslint/semi": "warn",
-		"react/react-in-jsx-scope": "off",
 		"react/jsx-indent": ["warn", 2],
 		"@typescript-eslint/indent": ["warn", 2],
 		"jsx-quotes": ["warn", "prefer-single"],
 		"semi": ["warn", "always"],
+		"react/react-in-jsx-scope": "off",
 		"arrow-parens": "off",
 		"comma-dangle": "off",
-		"no-console": 0,
+		"no-console": ["warn"],
 		"require-jsdoc": "off",
 		"no-tabs": 0,
 		"no-trailing-spaces": "off",
@@ -18,14 +18,15 @@
 		"no-debugger": "off",
 		"padded-blocks": "off",
 		// airbnb
-		"import/extensions": "off",
-		"react/function-component-definition": "off",
-		"import/prefer-default-export": "off",
-		"react/jsx-props-no-spreading": "off",
-		"func-names": "off",
-		"no-param-reassign": "off",
-		"import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
-		// 	"react/button-has-type": "off" я не против этого правила
+		// "import/extensions": "off",
+		// "react/function-component-definition": "off",
+		// "react/jsx-props-no-spreading": "off",
+		// "func-names": "off",
+		// "no-param-reassign": "off",
+		// "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+		// 	Under review
+		"import/prefer-default-export": "off"
+		//  "react/button-has-type": "off" // я не против этого правила
 	},
 	"overrides": [
 		{

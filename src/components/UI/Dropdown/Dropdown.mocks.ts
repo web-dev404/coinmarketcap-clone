@@ -1,9 +1,9 @@
-import { IDropdown } from './Dropdown'
+import { IDropdown } from './Dropdown';
 
 const base: IDropdown = {
-	isDropdownOpened: false
-}
+  isDropdownOpened: false,
+};
 
 export const mockBaseDropdownProps = {
-	base
-}
+  base,
+};
